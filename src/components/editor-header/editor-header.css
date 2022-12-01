@@ -1,0 +1,31 @@
+.editor-header {
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+  height: 45px;
+  background: var(--primary-color);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.editor-header nav {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+}
+
+.editor-header nav span {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgb(254, 188, 46);
+}
+
+.editor-header nav span:first-child {
+  background: rgb(255, 95, 87);
+}
+
+.editor-header nav span:last-child {
+  background: rgb(40, 200, 64);
+}

@@ -1,0 +1,56 @@
+.login {
+  display: flex;
+  height: calc(100vh - 84px);
+  align-items: center;
+  justify-content: center;
+}
+
+.login .block {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .bg {
+  position: absolute;
+  left: -10px;
+  right: -20px;
+  top: -10px;
+  bottom: -10px;
+  z-index: -1;
+  opacity: .9;
+  background: url("/public/bg.png");
+  -webkit-filter: blur(100px); /* Safari 6.0 - 9.0 */
+  filter: blur(100px);
+}
+
+.login input {
+  background: none;
+  max-width: 380px;
+  margin: 0 0 var(--padding);
+}
+
+.login h3 {
+  margin: 0 0 var(--padding);
+}
+
+.login p {
+  margin: 0 0 var(--padding-sm);
+}
+
+.login .sent {
+  display: flex;
+  align-items: center;
+}
+
+.login .sent svg {
+  height: 26px;
+}

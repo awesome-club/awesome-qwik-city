@@ -1,0 +1,52 @@
+:root {
+  --container-width: 600px;
+  --font-family: 'Raleway', sans-serif;
+  --padding: 30px;
+  --padding-sm: 15px;
+  --padding-lg: 60px;
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+  --font-size: 18px;
+  --text-color: #111;
+  --primary-color: #00254b;
+  --input-height-sm: 40px;
+  --input-height: 48px;
+  --input-height-lg: 54px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/public/bg.png");
+  background-size: cover;
+  font-family: var(--font-family);
+  margin: 0;
+  font-size: var(--font-size);
+  min-height: 100vh;
+}
+
+input, textarea {
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  height: var(--input-height);
+  outline: 0;
+  padding: 0 var(--padding-sm);
+  width: 100%;
+  font-size: var(--font-size);
+  font-weight: 600;
+  font-family: var(--font-family);
+}
+
+textarea:focus,
+input:focus {
+  transition: .2s all;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, .15);
+}
+
+.cm-editor {
+  padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
+  outline: none;
+  font-size: 20px;
+}

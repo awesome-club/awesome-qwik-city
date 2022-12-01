@@ -1,0 +1,33 @@
+section {
+  height: calc(100vh - 84px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.home h1 {
+  font-size: 84px;
+  font-weight: 600;
+  text-align: center;
+  margin: auto 0 0;
+  line-height: 1em;
+}
+
+section.home h1 span {
+  background: -webkit-linear-gradient(right, #E3A982, #51208C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.home p {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+  margin: var(--padding) 0;
+}
+
+section.home img {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: auto;
+}

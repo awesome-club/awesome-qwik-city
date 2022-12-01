@@ -1,0 +1,26 @@
+.editor {
+  max-width: var(--container-width);
+  margin: var(--padding) auto 0;
+  
+}
+
+.editor .blk {
+  background: #FFF;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.editor textarea {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  border: 0;
+  box-shadow: none !important;
+  padding: var(--padding-sm);
+  height: 75px;
+  font-weight: 400;
+}
+
+.editor footer {
+  margin: var(--padding) 0 0;
+  display: grid;
+  place-items: center;
+}
